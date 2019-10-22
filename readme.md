@@ -33,3 +33,5 @@ Client kodlarını çalıştırmak için ana dizindeyken:
     > cd ./chat-server/
     > node index.js
 komutlarını uygulayın.
+
+![](program.gif)
