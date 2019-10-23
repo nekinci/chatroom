@@ -30,7 +30,7 @@ komutlarını çalıştırın server start edilirken biraz bekleyin ardından
 Client kodlarını çalıştırmak için ana dizindeyken: 
 	
 
-    > cd ./chat-server/
+    > cd ./chat-app/
     > node index.js
 komutlarını uygulayın.
 
