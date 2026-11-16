@@ -1,7 +1,11 @@
 const express = require('express');
 const app = express();
 const server = require('http').Server(app);
-const io = require('socket.io')(server);
+const io = require('socket.io')(server, {
+    // React istemcileri hâlâ socket.io-client 2.x kullanıyor
+    allowEIO3: true,
+    cors: { origin: true, credentials: true }
+});
 const cors = require('cors');
 
 app.use(cors());
