@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "my first socket.io app",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "socket.io": "^2.3.0"
+    "cors": "^2.8.6",
+    "express": "^4.22.3",
+    "socket.io": "^4.8.4"
   }
 }
